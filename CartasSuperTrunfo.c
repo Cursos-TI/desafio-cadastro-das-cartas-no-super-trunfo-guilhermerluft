@@ -80,7 +80,7 @@ int main() {
         printf("\n[1] Sim");
         printf("\n[2] Não\n");
         int resultado = scanf("%d", &resultado);
-        printf("%d", resultado);
+        
         if(resultado != 1) {
             break;
         } else {
